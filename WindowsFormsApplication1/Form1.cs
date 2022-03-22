@@ -20,6 +20,9 @@ namespace WindowsFormsApplication1
         {
             MessageBox.Show("테스트");
 
+            MessageBox.Show("테스트");
+
+            MessageBox.Show("테스트");
 
         }
     }
