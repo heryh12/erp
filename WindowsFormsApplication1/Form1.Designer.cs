@@ -28,21 +28,35 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.textBoxExt21 = new Duzon.Common.Controls.TextBoxExt2();
             this.SuspendLayout();
+            // 
+            // textBoxExt21
+            // 
+            this.textBoxExt21.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(189)))), ((int)(((byte)(199)))), ((int)(((byte)(217)))));
+            this.textBoxExt21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBoxExt21.Location = new System.Drawing.Point(137, 88);
+            this.textBoxExt21.Name = "textBoxExt21";
+            this.textBoxExt21.Size = new System.Drawing.Size(279, 21);
+            this.textBoxExt21.TabIndex = 0;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(763, 405);
+            this.Controls.Add(this.textBoxExt21);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
+
+        private Duzon.Common.Controls.TextBoxExt2 textBoxExt21;
     }
 }
 
