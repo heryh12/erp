@@ -37,7 +37,7 @@
             this.textBoxExt21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBoxExt21.Location = new System.Drawing.Point(137, 88);
             this.textBoxExt21.Name = "textBoxExt21";
-            this.textBoxExt21.Size = new System.Drawing.Size(416, 21);
+            this.textBoxExt21.Size = new System.Drawing.Size(212, 21);
             this.textBoxExt21.TabIndex = 0;
             // 
             // Form1
